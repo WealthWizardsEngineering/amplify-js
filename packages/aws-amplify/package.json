@@ -12,7 +12,9 @@
     "format": "tsfmt --useTsfmt tsfmt.json -r src/**/*.ts",
     "lint": "tslint 'src/**/*.ts'",
     "generate-docs-local": "typedoc --out docs src",
-    "generate-docs-root": "typedoc --out ../../docs src"
+    "generate-docs-root": "typedoc --out ../../docs src",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -56,6 +58,8 @@
     "@aws-amplify/pubsub": "1.0.25-unstable.0",
     "@aws-amplify/storage": "1.0.27-unstable.1",
     "@aws-amplify/ui": "1.0.18-unstable.0",
-    "@aws-amplify/xr": "0.1.14-unstable.0"
-  }
+    "@aws-amplify/xr": "0.1.14-unstable.0",
+    "snyk": "^1.174.0"
+  },
+  "snyk": true
 }
