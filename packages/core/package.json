@@ -14,7 +14,9 @@
     "build": "npm run clean && tsc && webpack",
     "clean": "rimraf lib lib-esm dist",
     "format": "tsfmt --useTsfmt tsfmt.json -r src/**/*.ts",
-    "lint": "tslint 'src/**/*.ts'"
+    "lint": "tslint 'src/**/*.ts'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "react-native": {
     "./lib/ClientDevice": "./lib/ClientDevice/reactnative.js",
@@ -56,7 +58,8 @@
   },
   "dependencies": {
     "aws-sdk": "2.329.0",
-    "url": "^0.11.0"
+    "url": "^0.11.0",
+    "snyk": "^1.189.0"
   },
   "jest": {
     "transform": {
@@ -84,5 +87,6 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ]
-  }
+  },
+  "snyk": true
 }
