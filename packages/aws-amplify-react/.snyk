@@ -1,0 +1,138 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2019-08-14T23:42:04.966Z'
+  'npm:extend:20180424':
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T23:42:04.966Z'
+  'npm:hoek:20180212':
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-14T23:42:04.966Z'
+  'npm:stringstream:20180511':
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-08-14T23:42:04.966Z'
+  'npm:tough-cookie:20170905':
+    - jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-haste-map > sane > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-14T23:42:04.966Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-haste-map > sane > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2019-08-14T23:42:04.966Z'
