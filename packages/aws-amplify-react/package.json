@@ -13,15 +13,17 @@
     "build-with-test": "npm run clean && npm test && npm run build",
     "clean": "rimraf dist",
     "format": "tsfmt --useTsfmt tsfmt.json -r src/**/*.ts",
-    "lint": "tslint 'src/**/*.ts'"
+    "lint": "tslint 'src/**/*.ts'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.3",
     "enzyme-to-json": "^3.2.1",
-    "jest": "^22.x",
+    "jest": "^24.0.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.2.1",
     "react-test-renderer": "^16.0.0"
   },
   "repository": {
@@ -67,9 +69,11 @@
   },
   "dependencies": {
     "qrcode.react": "^0.8.0",
-    "regenerator-runtime": "^0.11.1"
+    "regenerator-runtime": "^0.11.1",
+    "snyk": "^1.216.4"
   },
   "peerDependencies": {
     "aws-amplify": "^1.x"
-  }
+  },
+  "snyk": true
 }
