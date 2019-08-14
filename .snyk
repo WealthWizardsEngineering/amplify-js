@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - jest > jest-cli > jest-runner > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - cypress > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - ts-jest > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - codecov > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - jest > jest-cli > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - jest > jest-cli > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+    - jest > jest-cli > jest-runtime > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-08-14T22:49:46.224Z'
+  SNYK-JS-LODASH-450202:
+    - typedoc > lodash:
+        patched: '2019-08-14T22:49:46.224Z'
