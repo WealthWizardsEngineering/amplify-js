@@ -48,7 +48,7 @@
     "tslint-config-airbnb": "^5.8.0",
     "typescript-formatter": "^6.0.0",
     "uglifyjs-webpack-plugin": "^0.4.6",
-    "webpack": "^3.5.5"
+    "webpack": "^4.29.0"
   },
   "dependencies": {
     "@aws-amplify/cache": "1.0.24-unstable.0",
