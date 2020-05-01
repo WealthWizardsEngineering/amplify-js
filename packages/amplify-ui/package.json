@@ -9,7 +9,9 @@
     "test": "webpack",
     "start": "webpack-dev-server",
     "clean": "rimraf dist",
-    "build": "npm run clean && webpack"
+    "build": "npm run clean && webpack",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "license": "MIT",
   "devDependencies": {
@@ -37,5 +39,9 @@
     "plugins": {
       "autoprefixer": {}
     }
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }
