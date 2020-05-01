@@ -13,7 +13,9 @@
     "package": "rollup -c rollup.config.js",
     "minify": "uglifyjs dist/bundles/aws-amplify-angular.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/aws-amplify-angular.umd.min.js",
     "build": "npm run transpile && npm run package && npm run minify && npm run declarations",
-    "declarations": "ngc --p ./declarations/"
+    "declarations": "ngc --p ./declarations/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "transformIgnorePatterns": [
@@ -70,6 +72,8 @@
     "aws-amplify": "^1.x"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.106"
-  }
+    "@types/lodash": "^4.14.106",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
