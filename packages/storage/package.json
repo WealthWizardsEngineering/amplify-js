@@ -14,7 +14,9 @@
     "build": "npm run clean && tsc && webpack",
     "clean": "rimraf lib lib-esm dist",
     "format": "tsfmt --useTsfmt tsfmt.json -r src/**/*.ts",
-    "lint": "tslint 'src/**/*.ts'"
+    "lint": "tslint 'src/**/*.ts'",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -50,7 +52,8 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "@aws-amplify/core": "1.0.24-unstable.0"
+    "@aws-amplify/core": "1.0.24-unstable.0",
+    "snyk": "^1.316.1"
   },
   "jest": {
     "transform": {
@@ -78,5 +81,6 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ]
-  }
+  },
+  "snyk": true
 }
