@@ -10,12 +10,15 @@
     "build": "vue-cli-service build --target lib --name aws-amplify-vue ./src/Amplify.vue",
     "build-stats": "vue-cli-service build --report --target lib --name aws-amplify-vue ./src/Amplify.vue",
     "test": "./node_modules/.bin/vue-cli-service test:unit",
-    "debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i"
+    "debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "qrcode.vue": "^1.6.0",
     "vue": "^2.5.17",
-    "vue2-filters": "^0.3.0"
+    "vue2-filters": "^0.3.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@aws-amplify/ui": "1.0.10-unstable.0",
@@ -44,5 +47,6 @@
     "*.json",
     "*.js"
   ],
-  "main": "./dist/aws-amplify-vue.common.js"
+  "main": "./dist/aws-amplify-vue.common.js",
+  "snyk": true
 }
