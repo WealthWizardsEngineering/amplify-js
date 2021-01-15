@@ -51,8 +51,8 @@
     "webpack": "^3.5.5"
   },
   "dependencies": {
-    "@aws-amplify/cache": "1.0.24-unstable.0",
-    "@aws-amplify/core": "1.0.24-unstable.0",
+    "@aws-amplify/cache": "1.0.24",
+    "@aws-amplify/core": "1.3.0",
     "amazon-cognito-auth-js": "^1.3.2",
     "amazon-cognito-identity-js": "3.0.10-unstable.0"
   },
